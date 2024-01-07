@@ -1,8 +1,6 @@
 import io
 from flask import Flask, request, render_template, send_file
 from pytube import YouTube
-from pathlib import Path
-import os
 import re
 app = Flask(__name__)
 
